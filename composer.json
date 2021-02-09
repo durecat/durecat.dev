@@ -1,12 +1,20 @@
 {
-    "name": "laravel/laravel",
+    "name": "durecat/durecat.dev",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "durecat.dev website",
+    "homepage": "https://github.com/durecat/durecat.dev",
     "keywords": [
         "framework",
         "laravel"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Dure Choi",
+            "email": "durecat@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
@@ -14,6 +22,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
+        "livewire/livewire": "^2.3",
         "mediconesystems/livewire-datatables": "dev-actions"
     },
     "require-dev": {
